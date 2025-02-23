@@ -1,0 +1,285 @@
+@font-face {
+  font-family: Psychedelic;
+  src: url(../Websit/TheMacksen-ZV24x.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#topcontainer {
+  background-color: #e0ebe8;
+  text-align: center;
+  padding: 10%;
+  padding-bottom: 0;
+  height: 100%;
+  padding-top: 20px;
+}
+
+#topcontainer h1 {
+  font-size: 3rem;
+  font-family: Psychedelic, cursive;
+  color: #3e9c87;
+}
+
+#topcontainer p {
+  color: #3e9c87;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+
+.land {
+  margin-top: 13.6%;
+  width: 80%;
+}
+
+.cloudone,
+.cloudtwo {
+  position: absolute;
+}
+
+.cloudone {
+  left: 20%;
+  top: 10%;
+}
+
+.cloudtwo {
+  top: 30%;
+  right: 20%;
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514E;
+}
+h1 {
+  font-size: 6.625rem;
+  margin: auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #3e9c87;
+  font-weight: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+  font-size: 20px;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  color: #EAF6F6;
+  margin: 100px auto 100px auto;
+}
+
+.middlecontainer {
+  margin: 100px 0;
+}
+.bottomcontainer {
+  background-color: #e0ebe8;
+  padding: 50px 0px 20px;
+  margin-bottom: 0px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.pro{
+  text-decoration: underline;
+}
+.footer-link{
+  color:  #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.msg{
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.Programming{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.ProblemSolving{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.pfp{
+  width: 25%;
+  /*margin: 30px auto 0px auto;*/
+}
+.intro{
+  line-height: 2;
+  width: 30%;
+  margin: auto;
+}
+.Hello{
+  margin-top: 10px;
+   ;
+}
+.copyright{
+  color: #EAF6F6;
+  padding: 20px 0;
+  font-size: 0.75rem;
+}
+.btn {
+  background: #3e9c87;
+  background-image: -webkit-linear-gradient(top, #3e9c87, #186e5d);
+  background-image: -moz-linear-gradient(top, #3e9c87, #186e5d);
+  background-image: -ms-linear-gradient(top, #3e9c87, #186e5d);
+  background-image: -o-linear-gradient(top, #3e9c87, #186e5d);
+  background-image: linear-gradient(to bottom, #3e9c87, #186e5d);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 5px 8px 4px #d8e6e3;
+  -moz-box-shadow: 5px 8px 4px #d8e6e3;
+  box-shadow: 5px 8px 4px #d8e6e3;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 20px 10px 18px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+ .copyright{
+  font-style: italic;
+  color: #186e5d;
+ }
+
+/* contact Html form CSS */
+
+.container {
+  /* Center the container horizontally */
+  margin: 0 auto;
+  /* Set a fixed width (optional, adjust as needed) */
+  width: 500px; /* Replace with your desired width */
+  
+  /* Add some basic styling as needed */
+  padding: 20px;
+  border-radius: 4px;
+
+}
+
+label {
+  text-align: left;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #3e9c87;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/* Nav Bar CSS */
+
+
+nav {
+  display: flex; /* Arrange navbar elements horizontally */
+  justify-content: center; /* Center them horizontally */
+  background-color: #e0ebe8; /* Set background color */
+  padding: 0 10px; /* Add some padding */
+  padding-top: 20px;
+  background-clip: padding-box; /* Fill margin with background color */
+
+}
+
+
+nav ul {
+  display: flex;
+  list-style: none; /* Remove default bullet points */
+  margin: 0; /* Remove default margin */
+}
+
+nav li {
+  margin: 0 5px; /* Adjust spacing as needed */
+
+ /*margin: 10px 0; /* Add some spacing between links */
+}
+
+nav a {
+  color: #3e9c87; /* Set text color */
+  text-decoration: none; /* Remove default underline */
+  padding: 5px 10px; /* Add some padding to links */
+  border-radius: 5px; /* Add subtle rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover animation */
+  line-height: 2; /* Adjust as needed */
+  vertical-align: middle;
+  gap: 10px; /* Adjust spacing as needed */
+
+}
+
+nav a:hover {
+  background-color: #3e9c87; /* Change background color on hover */
+}
+
+#contact-link {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+ /* margin-left: auto; /* Place icon at right corner */
+}
+
+#contact-link i {
+  margin-right: 5px; /* Add some space between icon and text */
+}
